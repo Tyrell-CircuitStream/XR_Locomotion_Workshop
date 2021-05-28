@@ -693,6 +693,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00a789452cd6e7e47bdf2c1d50c96802, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCamera: {fileID: 1347510107}
+  playerSpeed: 5
   xrRig: {fileID: 1353487701}
   handness: Right
   curveHeight: 1.5
@@ -700,7 +702,6 @@ MonoBehaviour:
   teleportReticle: {fileID: 1194286963}
   smoothnessValue: 0.2
   blackScreen: {fileID: 1533513343}
-  teleportLock: 0
 --- !u!120 &943892562
 LineRenderer:
   m_ObjectHideFlags: 0
